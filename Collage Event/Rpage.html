@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<title>Collage Event</title>
+    
+	<style>
+		body
+            {
+                background-image: url(image/login3.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+            h3
+            {
+                text-align: center;
+                font-size: 30px;
+                color:white;
+            }
+            h4
+            {
+                text-align: center;
+                font-size: 20px;
+                color:white;
+            }
+            #container
+            {
+                background: rgba(0,0,0,0.8);
+               
+                padding:0px 20px;
+                border:2px solid red;
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+                box-sizing: border-box;
+            }
+            label
+            {
+                color:white;
+            }
+            input[type]
+            {
+                background:transparent;
+                border:none;
+                outline: none;
+                color: white;
+                width:270px;
+            }
+           
+            textarea
+            {
+               background:transparent;
+                border:none;
+                outline: none; 
+                color:white;
+                width:270px;
+            }
+            #line
+            {
+                background-image:linear-gradient(to left, transparent,red);
+                border-radius:20px;
+                box-shadow:inset 0px 0px 3px white;
+                height:3px;
+                width:270px;
+            }
+            input[type="submit"]
+            {
+                background: red;
+                font-size: 20px;
+                margin-top:10px;
+                cursor: pointer;
+                font-weight: 500;
+                border-bottom-left-radius: 15px;
+                border-top-right-radius: 15px;
+            }
+            input[type="submit"]:hover
+            {
+                background-image: linear-gradient(black,transparent);
+                box-shadow: inset 0px 0px 10px red;
+            }
+            textarea::-webkit-scrollbar
+            {
+                width:12px;
+            }
+            textarea::-webkit-scrollbar-track
+            {
+                background: #f5f5f5;
+                box-shadow: inset 0px 0px 7px red;
+                border-radius: 30px;
+            }
+            textarea::-webkit-scrollbar-thumb
+            {
+                background-image: linear-gradient(transparent,red);
+                box-shadow: inset 0px 0px 7px red;
+                border-radius: 30px;
+                height:30px;
+                
+            }
+            textarea::-webkit-scrollbar-corner
+            {
+                background: red;
+            }
+         </style>
+</head>
+
+
+<body >
+   
+
+    <div id="container">
+	<div align="center">
+	<h3>Event Registration form </h3>
+    <div id="line"></div>
+	<h4> Please enter the details Corrently</h4>
+	<br><br>
+	<label>First Name :-</label><br>
+	<input type="name" name="" required><br>
+	<div id="line"></div><br>
+	
+	<label>Secound Name :-</label><br>
+	<input type="name" name="" required><br>
+	<div id="line"></div><br>
+
+	<label>Last Name :-</label><br>
+	<input type="name" name="" required><br>
+	<div id="line"></div><br>
+	
+	
+<label>Enter the DOB :</label>  
+	<input type="date">
+	
+	<br> <br>
+  
+      
+
+<label>Gender :</label>	
+	<input type="radio" name ="gender" >
+    <label>Male</label>	
+	<input type="radio" name ="gender" >
+    <label>Famale</label>	
+	<br>
+<label>Event :</label>	 
+	<input type="radio" name ="event">
+    <label>Music</label>	
+	<input type="radio" name ="event" >
+    <label>Dance</label>
+	
+
+
+	<h4 align ="center">Contact details</h4>
+	<br> <br>
+	<label>Email</label><br>
+	<input type="Email" name="Email" required><br>
+            <div id="line"></div><br>
+            <label>Phone Number</label><br>
+            <input type="text" name="number" required><br>
+            <div id="line"></div><br>
+			<label>Write Your Message Here.</label><br>
+            <textarea name="" Value="" rows="6" required></textarea><br>
+            <div id="line"></div>
+            <h5 align ="center" > 
+                <li><a class="loginblack" href="login.html"><input  type="submit"></a></li>
+                    
+                </h5>
+                <header>
+                    <nav>
+                    <ul id="Bimal">
+                        <li><a class="homeblack" href="index.html">HOME PAGE</a></li>
+            
+                        </ul>
+                    </nav>
+                </header>
+
+	
+	</div></div>
+</div>
+</body>
+</html>
